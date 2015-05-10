@@ -26,6 +26,13 @@
 		B6C5ED7A1ADFB83F002F0DF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C5ED791ADFB83F002F0DF1 /* Foundation.framework */; };
 		B6C5ED7C1ADFB870002F0DF1 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C5ED7B1ADFB870002F0DF1 /* MobileCoreServices.framework */; };
 		B6C5ED811ADFB9EC002F0DF1 /* GFDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C5ED801ADFB9EC002F0DF1 /* GFDefines.m */; };
+		B6F2AE1F1AFF3132005D7C74 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6F2AE1E1AFF3132005D7C74 /* AdSupport.framework */; };
+		B6F2AE231AFF3BBC005D7C74 /* GFSponsorsList.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F2AE221AFF3BBC005D7C74 /* GFSponsorsList.m */; };
+		B6F2AE261AFF473A005D7C74 /* GFGiftCard.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F2AE251AFF473A005D7C74 /* GFGiftCard.m */; };
+		B6F2AE291AFF4A4A005D7C74 /* GFHotApps.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F2AE281AFF4A4A005D7C74 /* GFHotApps.m */; };
+		B6F2AE2E1AFF5274005D7C74 /* GFTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F2AE2D1AFF5274005D7C74 /* GFTabBarController.m */; };
+		B6F2AE331AFF52F6005D7C74 /* GFSponsorsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F2AE321AFF52F6005D7C74 /* GFSponsorsTableViewController.m */; };
+		B6F2AE361AFF534B005D7C74 /* GFSponsorsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F2AE351AFF534B005D7C74 /* GFSponsorsTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +83,19 @@
 		B6C5ED7B1ADFB870002F0DF1 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		B6C5ED7F1ADFB9EC002F0DF1 /* GFDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFDefines.h; sourceTree = "<group>"; };
 		B6C5ED801ADFB9EC002F0DF1 /* GFDefines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFDefines.m; sourceTree = "<group>"; };
+		B6F2AE1E1AFF3132005D7C74 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		B6F2AE211AFF3BBC005D7C74 /* GFSponsorsList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GFSponsorsList.h; path = Model/GFSponsorsList.h; sourceTree = "<group>"; };
+		B6F2AE221AFF3BBC005D7C74 /* GFSponsorsList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GFSponsorsList.m; path = Model/GFSponsorsList.m; sourceTree = "<group>"; };
+		B6F2AE241AFF473A005D7C74 /* GFGiftCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GFGiftCard.h; path = Model/GFGiftCard.h; sourceTree = "<group>"; };
+		B6F2AE251AFF473A005D7C74 /* GFGiftCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GFGiftCard.m; path = Model/GFGiftCard.m; sourceTree = "<group>"; };
+		B6F2AE271AFF4A4A005D7C74 /* GFHotApps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GFHotApps.h; path = Model/GFHotApps.h; sourceTree = "<group>"; };
+		B6F2AE281AFF4A4A005D7C74 /* GFHotApps.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GFHotApps.m; path = Model/GFHotApps.m; sourceTree = "<group>"; };
+		B6F2AE2C1AFF5274005D7C74 /* GFTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GFTabBarController.h; path = Class/GFTabBarController.h; sourceTree = "<group>"; };
+		B6F2AE2D1AFF5274005D7C74 /* GFTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GFTabBarController.m; path = Class/GFTabBarController.m; sourceTree = "<group>"; };
+		B6F2AE311AFF52F6005D7C74 /* GFSponsorsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GFSponsorsTableViewController.h; path = Class/Sponsors/GFSponsorsTableViewController.h; sourceTree = "<group>"; };
+		B6F2AE321AFF52F6005D7C74 /* GFSponsorsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GFSponsorsTableViewController.m; path = Class/Sponsors/GFSponsorsTableViewController.m; sourceTree = "<group>"; };
+		B6F2AE341AFF534B005D7C74 /* GFSponsorsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GFSponsorsTableViewCell.h; path = Class/Sponsors/GFSponsorsTableViewCell.h; sourceTree = "<group>"; };
+		B6F2AE351AFF534B005D7C74 /* GFSponsorsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GFSponsorsTableViewCell.m; path = Class/Sponsors/GFSponsorsTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6F2AE1F1AFF3132005D7C74 /* AdSupport.framework in Frameworks */,
 				B6C5ED7C1ADFB870002F0DF1 /* MobileCoreServices.framework in Frameworks */,
 				B6C5ED7A1ADFB83F002F0DF1 /* Foundation.framework in Frameworks */,
 				B6C5ED781ADFB82D002F0DF1 /* UIKit.framework in Frameworks */,
@@ -112,6 +133,7 @@
 		841E0C792F74001916172B39 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B6F2AE1E1AFF3132005D7C74 /* AdSupport.framework */,
 				B6C5ED7B1ADFB870002F0DF1 /* MobileCoreServices.framework */,
 				B6C5ED791ADFB83F002F0DF1 /* Foundation.framework */,
 				B6C5ED771ADFB82D002F0DF1 /* UIKit.framework */,
@@ -143,6 +165,8 @@
 		B6C5ED2C1ADFACE9002F0DF1 /* GFStore */ = {
 			isa = PBXGroup;
 			children = (
+				B6F2AE2A1AFF523E005D7C74 /* Class */,
+				B6F2AE201AFF3B89005D7C74 /* Model */,
 				B6C5ED711ADFB7A1002F0DF1 /* Macro */,
 				B6C5ED691ADFB6BA002F0DF1 /* Manager */,
 				B6C5ED651ADFB68D002F0DF1 /* Util */,
@@ -238,6 +262,56 @@
 				B6C5ED801ADFB9EC002F0DF1 /* GFDefines.m */,
 			);
 			path = Macro;
+			sourceTree = "<group>";
+		};
+		B6F2AE201AFF3B89005D7C74 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B6F2AE211AFF3BBC005D7C74 /* GFSponsorsList.h */,
+				B6F2AE221AFF3BBC005D7C74 /* GFSponsorsList.m */,
+				B6F2AE241AFF473A005D7C74 /* GFGiftCard.h */,
+				B6F2AE251AFF473A005D7C74 /* GFGiftCard.m */,
+				B6F2AE271AFF4A4A005D7C74 /* GFHotApps.h */,
+				B6F2AE281AFF4A4A005D7C74 /* GFHotApps.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B6F2AE2A1AFF523E005D7C74 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				B6F2AE2C1AFF5274005D7C74 /* GFTabBarController.h */,
+				B6F2AE2D1AFF5274005D7C74 /* GFTabBarController.m */,
+				B6F2AE2B1AFF5244005D7C74 /* Sponsors */,
+				B6F2AE2F1AFF527B005D7C74 /* Gift_card */,
+				B6F2AE301AFF528D005D7C74 /* HotApps */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+		B6F2AE2B1AFF5244005D7C74 /* Sponsors */ = {
+			isa = PBXGroup;
+			children = (
+				B6F2AE311AFF52F6005D7C74 /* GFSponsorsTableViewController.h */,
+				B6F2AE321AFF52F6005D7C74 /* GFSponsorsTableViewController.m */,
+				B6F2AE341AFF534B005D7C74 /* GFSponsorsTableViewCell.h */,
+				B6F2AE351AFF534B005D7C74 /* GFSponsorsTableViewCell.m */,
+			);
+			name = Sponsors;
+			sourceTree = "<group>";
+		};
+		B6F2AE2F1AFF527B005D7C74 /* Gift_card */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Gift_card;
+			sourceTree = "<group>";
+		};
+		B6F2AE301AFF528D005D7C74 /* HotApps */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = HotApps;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -378,6 +452,10 @@
 				B6C5ED681ADFB68D002F0DF1 /* GTJObjectBuilder.m in Sources */,
 				B6C5ED331ADFACE9002F0DF1 /* AppDelegate.m in Sources */,
 				B6C5ED361ADFACE9002F0DF1 /* GFStore.xcdatamodeld in Sources */,
+				B6F2AE261AFF473A005D7C74 /* GFGiftCard.m in Sources */,
+				B6F2AE231AFF3BBC005D7C74 /* GFSponsorsList.m in Sources */,
+				B6F2AE331AFF52F6005D7C74 /* GFSponsorsTableViewController.m in Sources */,
+				B6F2AE361AFF534B005D7C74 /* GFSponsorsTableViewCell.m in Sources */,
 				B6C5ED611ADFAF6D002F0DF1 /* GFRequest.m in Sources */,
 				B6C5ED631ADFAF6D002F0DF1 /* GTJNetworkAgent.m in Sources */,
 				B6C5ED621ADFAF6D002F0DF1 /* GFRequestAPI.m in Sources */,
@@ -385,6 +463,8 @@
 				B6C5ED6C1ADFB6EB002F0DF1 /* GFConfiguration.m in Sources */,
 				B6C5ED811ADFB9EC002F0DF1 /* GFDefines.m in Sources */,
 				B6C5ED391ADFACE9002F0DF1 /* ViewController.m in Sources */,
+				B6F2AE2E1AFF5274005D7C74 /* GFTabBarController.m in Sources */,
+				B6F2AE291AFF4A4A005D7C74 /* GFHotApps.m in Sources */,
 				B6C5ED301ADFACE9002F0DF1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
