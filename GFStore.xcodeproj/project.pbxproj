@@ -33,6 +33,7 @@
 		B6F2AE2E1AFF5274005D7C74 /* GFTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F2AE2D1AFF5274005D7C74 /* GFTabBarController.m */; };
 		B6F2AE331AFF52F6005D7C74 /* GFSponsorsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F2AE321AFF52F6005D7C74 /* GFSponsorsTableViewController.m */; };
 		B6F2AE361AFF534B005D7C74 /* GFSponsorsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F2AE351AFF534B005D7C74 /* GFSponsorsTableViewCell.m */; };
+		B6F2AE391B009873005D7C74 /* UIImage+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F2AE381B009873005D7C74 /* UIImage+Utility.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +97,8 @@
 		B6F2AE321AFF52F6005D7C74 /* GFSponsorsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GFSponsorsTableViewController.m; path = Class/Sponsors/GFSponsorsTableViewController.m; sourceTree = "<group>"; };
 		B6F2AE341AFF534B005D7C74 /* GFSponsorsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GFSponsorsTableViewCell.h; path = Class/Sponsors/GFSponsorsTableViewCell.h; sourceTree = "<group>"; };
 		B6F2AE351AFF534B005D7C74 /* GFSponsorsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GFSponsorsTableViewCell.m; path = Class/Sponsors/GFSponsorsTableViewCell.m; sourceTree = "<group>"; };
+		B6F2AE371B009873005D7C74 /* UIImage+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Utility.h"; sourceTree = "<group>"; };
+		B6F2AE381B009873005D7C74 /* UIImage+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Utility.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -239,6 +242,8 @@
 		B6C5ED651ADFB68D002F0DF1 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				B6F2AE371B009873005D7C74 /* UIImage+Utility.h */,
+				B6F2AE381B009873005D7C74 /* UIImage+Utility.m */,
 				B6C5ED661ADFB68D002F0DF1 /* GTJObjectBuilder.h */,
 				B6C5ED671ADFB68D002F0DF1 /* GTJObjectBuilder.m */,
 			);
@@ -282,6 +287,7 @@
 			children = (
 				B6F2AE2C1AFF5274005D7C74 /* GFTabBarController.h */,
 				B6F2AE2D1AFF5274005D7C74 /* GFTabBarController.m */,
+				B6F2AE3A1B009CA2005D7C74 /* About */,
 				B6F2AE2B1AFF5244005D7C74 /* Sponsors */,
 				B6F2AE2F1AFF527B005D7C74 /* Gift_card */,
 				B6F2AE301AFF528D005D7C74 /* HotApps */,
@@ -312,6 +318,13 @@
 			children = (
 			);
 			name = HotApps;
+			sourceTree = "<group>";
+		};
+		B6F2AE3A1B009CA2005D7C74 /* About */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = About;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -465,6 +478,7 @@
 				B6C5ED391ADFACE9002F0DF1 /* ViewController.m in Sources */,
 				B6F2AE2E1AFF5274005D7C74 /* GFTabBarController.m in Sources */,
 				B6F2AE291AFF4A4A005D7C74 /* GFHotApps.m in Sources */,
+				B6F2AE391B009873005D7C74 /* UIImage+Utility.m in Sources */,
 				B6C5ED301ADFACE9002F0DF1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,6 +7,7 @@
 //
 
 #import "GFTabBarController.h"
+#import "UIImage+Utility.h"
 
 @interface GFTabBarController ()
 
@@ -17,6 +18,48 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    UIImageView *imageView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"ad-reward-img-logo"]];
+    imageView.frame = CGRectMake(0, 0, 154, 23);
+    UIView *view = [[UIView alloc]initWithFrame:CGRectZero];
+    view.frame = imageView.frame;
+    [view addSubview:imageView];
+    self.navigationItem.titleView = view;
+    
+    [self.navigationController.navigationBar setBackgroundImage:[UIImage imageWithColor:RGBCOLOR(90, 110, 135)] forBarMetrics:UIBarMetricsDefault];
+    
+    for (UITabBarItem* item in self.tabBar.items)
+    {
+        switch (item.tag) {
+            case 0:
+            {
+                item.image = [[UIImage imageNamed:@"ad-reward-btn-sponsors"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+                item.selectedImage = [[UIImage imageNamed:@"ad-reward-btn-sponsors-hl"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+            }
+                break;
+            case 1:
+            {
+                item.image = [[UIImage imageNamed:@"ad-reward-btn-gifts"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+                item.selectedImage = [[UIImage imageNamed:@"ad-reward-btn-gifts-hl"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+            }
+                break;
+            case 2:
+            {
+                item.image = [[UIImage imageNamed:@"ad-reward-btn-hot"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+                item.selectedImage = [[UIImage imageNamed:@"ad-reward-btn-hot-hl"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+            }
+                break;
+            case 3:
+            {
+                item.image = [[UIImage imageNamed:@"ad-reward-btn-about"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+                item.selectedImage = [[UIImage imageNamed:@"ad-reward-btn-about-hl"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+            }
+                break;
+                
+            default:
+                break;
+        }
+    }
 }
 
 - (void)didReceiveMemoryWarning {
